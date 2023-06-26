@@ -15,5 +15,5 @@ export const publicClient = createPublicClient({
 export const walletClient = createWalletClient({
   chain: chainIdToNetworkMap[CHAIN_ID],
   // @ts-ignore
-  transport: custom(window.ethereum),
+  transport: typeof window === "undefined" ? http() : custom(window?.ethereum),
 });
