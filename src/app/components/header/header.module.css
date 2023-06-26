@@ -1,0 +1,21 @@
+.container {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.balance-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.balance-card {
+  background-color: rgb(var(--card-rgb));
+  padding: 12px;
+  border-radius: var(--border-radius);
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}

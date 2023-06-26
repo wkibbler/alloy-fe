@@ -1,0 +1,13 @@
+.button {
+  background-color: rgb(var(--card-rgb));
+  border-radius: var(--border-radius);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}

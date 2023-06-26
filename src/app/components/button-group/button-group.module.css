@@ -1,0 +1,9 @@
+.container {
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.not-active {
+  border-width: 1px;
+  border-color: white;
+}
